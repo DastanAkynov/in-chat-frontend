@@ -1,0 +1,12 @@
+.register {
+  &-form {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    width: 200px;
+
+    &__item {
+      margin-bottom: 8px;
+    }
+  }
+}
