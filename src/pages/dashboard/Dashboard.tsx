@@ -11,9 +11,9 @@ const Dashboard: React.FC = () => {
     const getUsers = async () => {
       try {
         await dipatch(getUserList()).unwrap()
-        alert('Success to get user list')
+        // alert('Success to get user list')
       } catch (err) {
-        alert(err)
+        // alert(err)
       }
     }
     getUsers()

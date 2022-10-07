@@ -3,7 +3,7 @@ import {Route, Routes} from 'react-router-dom'
 import Layuot from '../app/layouts/Layuot';
 import { useAppDispatch } from '../app/store/hooks';
 import { refresh } from '../modules/actions.export';
-import { Dashboard, Home, Login, Register } from './export';
+import { Chat, Dashboard, Home, Login, NotFound, Register } from './export';
 
 
 const Routing = () => {
@@ -30,6 +30,8 @@ const Routing = () => {
               <Route path="login" element={<Login />} />
             </Route>
             <Route path="dashboard" element={<Dashboard />}/>
+             <Route path="chat" element={<Chat />} />
+            <Route path="*" element={<NotFound />}/>
           </Route>
         </Route>
     </Routes>

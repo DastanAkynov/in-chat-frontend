@@ -21,9 +21,9 @@ const Register: React.FC = () => {
     e.preventDefault()
     try {
       await dispatch(register(form)).unwrap()
-      alert(`Seccess registration!`)
+      // alert(`Seccess registration!`)
     } catch(err) {
-      alert(err)
+      // alert(err)
     }
   }
 

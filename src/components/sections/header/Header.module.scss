@@ -1,0 +1,36 @@
+@import '../../../app/styles/variables.scss';
+
+.header {
+  padding-bottom: 75px;
+  width: 100%;
+}
+
+.headerContainer {
+  position: fixed;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, .3);
+}
+
+.logo {
+  margin-right: 100px;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: $dark;
+  margin-right: 30px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

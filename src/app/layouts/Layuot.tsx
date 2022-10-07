@@ -1,13 +1,11 @@
 import { Outlet } from 'react-router-dom'
-import { Menu } from '../../components/export'
+import { Header, Menu } from '../../components/export'
 
 const Layuot: React.FC = () => {
   return (
     <div className="layout">
-        <header>
-          <Menu />
-        </header>
-        <main className="container">
+        <Header />
+        <main className="container section">
           <Outlet />
         </main>
     </div>
